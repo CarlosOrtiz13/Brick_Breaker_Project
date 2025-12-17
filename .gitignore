@@ -1,8 +1,12 @@
 ﻿# Ignore build output
-build/
-bin/
+build/*
+bin/*
 
-# Ignore compiled artifacts
+# Allow folder keep markers
+!build/**/keep.txt
+!bin/**/keep.txt
+
+# Ignore compiled artifacts anywhere
 *.o
 *.bin
 *.elf
