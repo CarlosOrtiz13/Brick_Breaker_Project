@@ -1,0 +1,10 @@
+﻿# Ignore build output
+build/
+bin/
+
+# Ignore compiled artifacts
+*.o
+*.bin
+*.elf
+*.img
+*.iso
